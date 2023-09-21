@@ -17,7 +17,7 @@ int main()
 	kitty[strcspn(kitty, "\n")] = 0; // ²
 	printf("%s is nice, too.\n", kitty);
 
-	printf("The kitty is owned by your mom, %s.\n", YOURMOM);
+	printf("The kitty is owned by your mom, %s.\n", mymom);
 
 	return(0);
 }
